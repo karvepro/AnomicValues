@@ -1,0 +1,40 @@
+@media screen and (max-width: 1200px) {
+  #home,
+  #about {
+    margin-top: 50px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  header nav {
+    display: none;
+  }
+
+  #home,
+  #about {
+    flex-direction: column;
+  }
+  #home > *,
+  #about > * {
+    width: 100%;
+  }
+  #home img {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
+  header .logo {
+    margin-bottom: 20px;
+  }
+  #services .block {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+    line-height: 30px;
+  }
+}
